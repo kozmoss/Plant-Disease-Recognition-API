@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Model dosyası (çok büyük - Git LFS gerekli)
+# trained_plant_disease_model.keras
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+
+# Test files
+test_images/
+*.jpg
+*.jpeg
+*.png
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
